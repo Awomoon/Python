@@ -1,0 +1,22 @@
+"""
+Programme: ID Badge Generator
+Author: Raphael Awoyemi(Moontech)
+"""
+print("Please provide the following information: ")
+print()
+first_name = input("First name: ")
+last_name = input("Last name: ")
+email = input("Email address: ")
+phone_number = input("Phone number: ")
+job_title = input("Job title: ")
+id_number = input("ID Number: ")
+print()
+print("The ID Card is: ")
+print("-----------------------------------")
+print(f"{last_name.upper()}, {first_name.capitalize()}")
+print(f"{job_title.title()}")
+print(f"ID: {id_number}")
+print()
+print(f"{email.lower()}")
+print(f"{phone_number}")
+print("-----------------------------------")
